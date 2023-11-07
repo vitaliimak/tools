@@ -1,0 +1,28 @@
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: #010a01; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.timer {
+    margin: auto;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+    text-shadow:
+            0 0 2px #fff,
+            0 0 4px #fff,
+            0 0 6px #fff,
+            0 0 10px #fe133e,
+            0 0 45px #fe133e,
+            0 0 55px #fe133e,
+            0 0 70px #fe133e,
+            0 0 80px #fe133e;
+    font-size: 6.2rem;
+    animation: pulsate 1.5s infinite alternate;
+    /* padding: 0.4em; */
+}
